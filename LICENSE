@@ -1,6 +1,6 @@
-Creative Commons Attribution-NonCommercial 4.0 International Public License
-
-By using, sharing, or modifying this project, you agree to the terms below.
+Custom Non-Commercial License v1.0  
+Based on Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)  
+Full license: https://creativecommons.org/licenses/by-nc/4.0/
 
 You are free to:
 - Share — copy and redistribute the material in any medium or format
@@ -9,6 +9,21 @@ You are free to:
 Under the following terms:
 - **Attribution** — You must give appropriate credit.
 - **NonCommercial** — You may not use the material for commercial purposes.
-- **No additional restrictions** — You may not apply legal terms or technological measures that restrict others from doing anything the license permits.
+- **No additional restrictions** — You may not apply legal terms or technical measures that legally restrict others from doing anything the license permits.
 
-Full legal license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+---
+
+🚫 Additional Prohibited Uses (Custom Clauses):
+
+The following **are explicitly forbidden without written permission** from the author:
+
+1. **Commercial Use**: You may not sell, license, rent, or offer this software or its derivatives through any for-profit service, platform, or product.
+2. **SaaS/Cloud Platforms**: You may not deploy this software or its derivatives in Software-as-a-Service (SaaS) or cloud-based environments for end users.
+3. **AI/ML Model Training**: You may not use any part of this software, data, configuration, or its output to train, fine-tune, or test artificial intelligence models, including LLMs, without permission.
+4. **Closed-Source Derivatives**: You may not create derivative works that are not also open-source and under a compatible NonCommercial license.
+5. **Brand Removal**: Attribution must remain visible in all derivative works. You may not remove or obfuscate author credit.
+
+---
+
+👤 Author: Sterling Keuling  
+📧 Contact: savion999@yahoo.com
