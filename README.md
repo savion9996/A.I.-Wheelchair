@@ -1,50 +1,25 @@
 # AI Wheelchair
 
-The **AI Wheelchair** is an open-source project designed to help people navigate the world safely and independently using intelligent assistive technology. Built on modular components, it combines computer vision, voice interaction, and mobility to empower users with more freedom and control.
+The **AI Wheelchair** project is an open-source effort to empower individuals with limited mobility to navigate the world safely, intelligently, and independently. It combines real-time voice interaction, computer vision, and modular AI components to create an assistive wheelchair platform.
 
 ---
 
-## 🚀 Core Purpose
+## 🚀 Project Goals
 
-This project is aimed at:
-- Keeping the wheelchair on sidewalks or safe paths
-- Identifying intersections and safe times to cross
-- Reacting to real-world signage (e.g., “Walk”/“Don’t Walk”)
-- Supporting voice interaction and eventually autonomous features
-
----
-
-## 🧩 Modules
-
-### ✅ Voice Assistant [`voice_assistant/`](voice_assistant/)
-- Listens for a trigger word (“computer”)
-- Uses Whisper to transcribe speech
-- Sends input to a local LLM (via Ollama)
-- Speaks replies aloud using Piper (TTS)
-- Remembers the last 10 conversations
-- [Learn more here →](voice_assistant/README.md)
+- Stay centered on sidewalks or safe pathways  
+- Detect and react to road crossings and signs (e.g., "Walk/Don't Walk")  
+- Support hands-free voice interaction and natural speech  
+- Use efficient AI acceleration (e.g., Hailo-8, Jetson Orin Nano)  
+- Allow modular expansion with cameras, sensors, and remote clients  
 
 ---
 
-## 🛠️ In Progress
+## 🧩 Current Modules
 
-Planned features and modules:
-- 📷 Object detection and sidewalk tracking via stereo cameras
-- 🧠 Hailo-8 integration for efficient inferencing
-- 🗺️ Navigation logic and route planning
-- 🎮 Remote client app (voice input/output)
-- 🧬 Persona-based speech modes (e.g., Morgan Freeman, GLaDOS)
+### ✅ [Voice Assistant](voice_assistant/)
 
----
-
-## 🤝 Contributing
-
-This project is under active development and welcomes contributions. Whether you're a developer, hardware tinkerer, or AI enthusiast — you're welcome to explore, fork, and improve the system.
-
-Feel free to open issues, make suggestions, or submit PRs.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more info.
+- Listens for trigger word: `computer`  
+- Records speech and transcribes it using Whisper (tiny.en)  
+- Sends request to a local LLM (via Ollama, using `llama2`)  
+- Responds with natural speech using Piper (`en_US-amy-low`)  
+- Remembers last 10 conversations using `jq` and J
