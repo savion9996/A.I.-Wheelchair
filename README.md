@@ -1,64 +1,50 @@
 # AI Wheelchair
 
-> “Helping people navigate the world safely and independently.”
+The **AI Wheelchair** is an open-source project designed to help people navigate the world safely and independently using intelligent assistive technology. Built on modular components, it combines computer vision, voice interaction, and mobility to empower users with more freedom and control.
 
 ---
 
-## 🚀 What This Project Is
+## 🚀 Core Purpose
 
-AI Wheelchair is an open-source initiative to create a smart, voice-enabled wheelchair platform for real-world navigation and assistance. The goal is to make it easier for people—especially those with mobility challenges—to explore the world without fear of traffic, obstacles, or getting lost.
-
----
-
-## 🧠 Core Goals
-
-- Stay safely on sidewalks
-- Avoid collisions with people, objects, and vehicles
-- Detect and interpret walk/don’t walk signals at intersections
-- Enable voice-based communication with the chair
-- Prevent accidental movement into grass, curbs, or roadways
+This project is aimed at:
+- Keeping the wheelchair on sidewalks or safe paths
+- Identifying intersections and safe times to cross
+- Reacting to real-world signage (e.g., “Walk”/“Don’t Walk”)
+- Supporting voice interaction and eventually autonomous features
 
 ---
 
-## 🌟 Future Features
+## 🧩 Modules
 
-- Follow mode: track a service animal or caretaker
-- Remote control via voice assistant
-- GPS-based destination guidance
-- Smart obstacle negotiation
-- Enhanced environmental awareness
-
----
-
-## 👷 Current Status
-
-Development is in early stages. If you're an AI developer, robotics engineer, voice processing expert, or just someone who cares—**we welcome your contributions**.
+### ✅ Voice Assistant [`voice_assistant/`](voice_assistant/)
+- Listens for a trigger word (“computer”)
+- Uses Whisper to transcribe speech
+- Sends input to a local LLM (via Ollama)
+- Speaks replies aloud using Piper (TTS)
+- Remembers the last 10 conversations
+- [Learn more here →](voice_assistant/README.md)
 
 ---
 
-## 🔒 License
+## 🛠️ In Progress
 
-This project is licensed under a **Custom Non-Commercial License v1.0**  
-- Commercial use is **strictly prohibited**
-- Attribution is required
-- AI training, cloud use, and closed-source forks are not allowed without permission
-
-📄 [Read the full license here](./LICENSE)
-
----
-
-## 📫 Contact
-
-This project was started by **Sterling Keuling** — just a guy dying of cancer trying to leave behind something meaningful.
-
-If you’d like to contribute, collaborate, or inquire about usage rights, email:  
-📧 **savion999@yahoo.com**
+Planned features and modules:
+- 📷 Object detection and sidewalk tracking via stereo cameras
+- 🧠 Hailo-8 integration for efficient inferencing
+- 🗺️ Navigation logic and route planning
+- 🎮 Remote client app (voice input/output)
+- 🧬 Persona-based speech modes (e.g., Morgan Freeman, GLaDOS)
 
 ---
 
-## 🙏 A Note
+## 🤝 Contributing
 
-This project is open-source because **everyone should have the chance to move freely**. If you find this useful or inspiring, consider helping out. Not for profit. Just because it matters.
+This project is under active development and welcomes contributions. Whether you're a developer, hardware tinkerer, or AI enthusiast — you're welcome to explore, fork, and improve the system.
+
+Feel free to open issues, make suggestions, or submit PRs.
 
 ---
 
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more info.
