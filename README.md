@@ -22,4 +22,22 @@ The **AI Wheelchair** project is an open-source effort to empower individuals wi
 - Records speech and transcribes it using Whisper (tiny.en)  
 - Sends request to a local LLM (via Ollama, using `llama2`)  
 - Responds with natural speech using Piper (`en_US-amy-low`)  
-- Remembers last 10 conversations using `jq` and J
+- Remembers last 10 conversations using `jq` and JSON  
+- CLI-based Bash/Python hybrid (easy to extend)  
+- [Read module-specific details here →](voice_assistant/README.md)  
+
+---
+
+## 🛠️ In Progress
+
+- 🧠 Hailo-8 support for real-time object and path detection  
+- 📷 Stereo camera module for sidewalk detection and obstacle avoidance  
+- 🗣️ Voice persona switching (Morgan Freeman, GLaDOS, Skyrim narrator)  
+- 🖥️ Remote client interface (Pi, phone, or laptop-based)  
+- 🎮 Interactive voice control: “Open Firefox”, “Play music”, etc.  
+
+---
+
+## 🤝 Contributing
+
+We welcome developers, AI tinkerers, accessibility advoca
